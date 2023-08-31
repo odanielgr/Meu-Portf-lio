@@ -63,9 +63,9 @@ body {
 .container {
     height: auto;
     width: 100%;
-    display: flex;
+ /* display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
     background-color: #F2F2F2;
 }
 
@@ -152,4 +152,38 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+    
+    .card-container {
+        display: block;
+        padding: 40px 0;
+    }
+    
+    .card {
+        margin: 0 auto;
+        height: 180px;
+        width: 180px;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+
+        font-family: 'Indie Flower', cursive;
+        color: #1E1E2A;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .card-wrapper {
+        font-size: 10px;
+    }
+
+    .card-wrapper:hover {
+        font-size: 15px;
+    }
+
 }
