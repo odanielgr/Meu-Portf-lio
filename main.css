@@ -86,7 +86,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: gray;
-    background-image: url(image/Captura\ de\ tela\ 2023-08-28\ 223419.png);
+    background-image: url(image/Captura\ de\ tela\ -\ projeto\ 1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body {
 }
 
 .projeto-2 {
-    background-image: url(image/Captura\ de\ tela\ calculadora\ de\ media.png);
+    background-image: url(image/Captura\ de\ tela\ -\ projeto\ 2.png);
 }
 
 a {
@@ -140,6 +140,19 @@ a {
 
 h3 {
     font-size: 26px;
+}
+
+.projeto-3 {
+    background-image: url(image/Captura\ de\ tela\ -\ exercicioM13.png);
+}
+
+.competencias {
+    padding-top: 8px;
+}
+
+.competencias ul {
+    list-style: disc;
+    list-style-position: inside;
 }
 
 /* Footer */ 
